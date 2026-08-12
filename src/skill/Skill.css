@@ -1,0 +1,25 @@
+.divRow{
+    justify-content: center;
+}
+
+
+
+
+.skill{
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+   
+    color: aliceblue;
+    background-color: rgb(128, 114, 114);
+    width:auto;
+    height: auto;
+
+    border-radius: 10px;
+    margin: 10px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+
+
+}

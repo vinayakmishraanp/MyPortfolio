@@ -1,0 +1,38 @@
+.footerDiv{
+    padding: 10px;
+    background-color: rgba(83, 74, 74, 0.9);
+    width: 98%;
+    display: flex;
+    justify-self:center ;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10% 10% 0 0;
+    box-shadow: 0 0 50px 10px rgb(219, 205, 205);
+    color: rgb(190, 194, 197);
+}
+
+.icons{
+  
+  
+    display: flex;
+    width: 15%;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2%;
+    justify-content: space-between;
+    font-size: 20px;
+    margin-bottom: 15px;
+
+}
+
+@media (max-width: 768px) {
+    .icons{
+        width: 20%;
+    }
+}
+
+
+.icons i{
+    color: aliceblue;
+    
+}

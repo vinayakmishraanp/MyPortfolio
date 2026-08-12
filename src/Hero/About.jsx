@@ -1,7 +1,7 @@
 import React from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './About.css'
-import vinayakImage from "../assets/vinayak_image.jpeg";
+import vinayakImage from "src/assets/vinayak_image.jpeg";
 function About() {
     return ( <>
    <div className="container mt-5"> 

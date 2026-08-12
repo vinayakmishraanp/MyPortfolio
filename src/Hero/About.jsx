@@ -1,14 +1,14 @@
 import React from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './About.css'
-
+import vinayakImage from '/src/assets/vinayak_image.jpeg';
 function About() {
     return ( <>
    <div className="container mt-5"> 
   <div className="row  d-flex align-items-center"> 
     {/* Full width on mobile, half width on desktop */}
     <div className="col-12 col-md-6 img"> 
-      <img src='/src/assets/vinayak_image.jpeg' className='img-fluid img' alt="Vinayak" /> 
+      <img src='{vinayakImage}' className='img-fluid img' alt="Vinayak" /> 
     </div> 
     
     

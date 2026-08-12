@@ -1,5 +1,5 @@
 import React from 'react'
-
+import project2 from '../assets/Project2.png';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap-icons/font/bootstrap-icons.css';
 import { FaHtml5, FaCss3Alt, FaJs, FaCode } from "react-icons/fa";
@@ -16,7 +16,7 @@ function ProjectLeft() {
             <div className="col-12 col-md-6 projectDiv ml-5">
             <div className='projectImg1 mt-3'>
             
-                <img src="src/assets/project2.png" className='img-fluid projectImg1 ' alt="Vinayak" />
+                <img src={project2} className='img-fluid projectImg1 ' alt="Vinayak" />
             
             </div>
             <div className='btns mt-3 justify-content-center'>

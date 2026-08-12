@@ -1,4 +1,4 @@
-
+import project1 from '../assets/Project1.png';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap-icons/font/bootstrap-icons.css';
 import {
@@ -42,7 +42,7 @@ function ProjectRight(){
         <div className="col-12 col-md-6 projectDiv ml-5">
             <div className='projectImg1 mt-3'>
             
-                <img src="src/assets/project1.png" className='img-fluid projectImg1 ' alt="Vinayak" />
+                <img src={project1} className='img-fluid projectImg1 ' alt="Vinayak" />
            
             </div>
             <div className='btns mt-3'>

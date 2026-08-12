@@ -7,7 +7,7 @@ function About() {
   <div className="row  d-flex align-items-center"> 
     {/* Full width on mobile, half width on desktop */}
     <div className="col-12 col-md-6 img"> 
-      <img src='../assets/vinayak_image.jpeg' className='img-fluid img' alt="Vinayak" /> 
+      <img src='./assets/vinayak_image.jpeg' className='img-fluid img' alt="Vinayak" /> 
     </div> 
     
     
